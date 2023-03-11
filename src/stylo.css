@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(img/img0.jfif);
+    background: url(img/n2.jpg);
 }
 .container{
     position: relative;
@@ -25,38 +25,52 @@ body {
     position: relative;
     width: 280px;
     height: 400px;
-    margin: 30px;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    margin: 20px;
+    box-shadow: 35px 35px 80px rgba(0,0,0,0.20);
     border-radius: 20px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(54, 128, 220, 0.5);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 2px solid rgba(255,255,255,0.5);
-    border-left: 2px solid rgba(255,255,255,0.5);
+    border-top: 10px solid rgba(242, 12, 188, 0.5);
+    border-left: 10px solid rgba(42, 80,185, 0.5);
 
 }
 .container .cards .content{
     padding: 20px;
     text-align: center;
-    transform: translateY(100px);
+    transform: translateY(200px);
     opacity: 0;
     transition: 0.9s;
 
 }
 
 .container .cards:hover .content{
-    transform: translateY(0px);
-    opacity: 1;
+    transform: translateY(1px);
+    opacity: 900;
 }
 .container .cards .content h2{
     position: absolute;
-    top: -80px;
+    top: -60px;
     right: 30px;
-    font-size: 8em;
-    color: rgba(255,255,255,0.05);
+    font-size: 60px;
+    color: black;
     pointer-events: none;
+    font-style: italic ,normal ,oblique;
 
 
+}
+.container .cards .content h3{
+        color: rgb(6, 11, 161);
+        font: italic;
+        font-size: 30px;
+}
+.container .cards .content a{
+    color: rgb(247, 5, 214);
+}
+.container .cards .content i{
+    color: rgb(247, 5, 214);
+    font-size: 30px;
+    
 }
