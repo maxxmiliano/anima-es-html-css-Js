@@ -4,13 +4,22 @@
     box-sizing: border-box;
     font-size: 'Segoe UI',tahoma,Geneva,verdana,sans-serif;
 }
+
 body {
+    
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(img/n2.jpg);
+    background: url(img/alura.webp);
 }
+.container h1{
+    color: rgb(7, 7, 7);
+    position: absolute;
+    top: -50px;
+    font-size: 38px;
+}
+
 .container{
     position: relative;
     display: flex;
@@ -67,10 +76,19 @@ body {
         font-size: 30px;
 }
 .container .cards .content a{
-    color: rgb(247, 5, 214);
+    color: rgb(247, 5, 118);
 }
 .container .cards .content i{
     color: rgb(247, 5, 214);
     font-size: 30px;
     
+}
+.links a{
+    color: rgb(7, 7, 7);
+    position: relative;
+    bottom: 5px; ;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
