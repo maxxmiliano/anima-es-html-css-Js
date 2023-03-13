@@ -1,5 +1,5 @@
 # Cards animados-html-css-Js
-### ***Esse e um projeto para onde estou praticando animaçõess para futuros projetos***
+### ***Esse e um projeto onde estou praticando animaçõess para futuros projetos***
 ![image](https://user-images.githubusercontent.com/72661974/224596160-f13e6026-0923-479e-a2fa-0d0dd07d25e7.png)
 ![image](https://user-images.githubusercontent.com/72661974/224596232-55954cdd-e5f1-4ef5-b081-a36e53945b8f.png)
 ![image](https://user-images.githubusercontent.com/72661974/224596293-3ba57d2f-e31a-46e6-b846-17092519610b.png)
