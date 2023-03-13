@@ -44,7 +44,7 @@ body {
     width: 280px;
     height: 400px;
     margin: 20px;
-    box-shadow: 5px 5px 5px 5px rgb(234, 239, 72);;
+    box-shadow: 5px 5px 5px 5px rgb(246, 161, 4);;
     border-radius: 20px;
     background: rgba(54, 128, 220, 0.5);
     overflow: hidden;
@@ -106,6 +106,6 @@ body {
     display: inline-block;
     left: 50%;
     transform: translate(-50%);
-    background: yellow
+    background: rgb(244, 159, 3)
     
 }
