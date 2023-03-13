@@ -5,19 +5,28 @@
     font-size: 'Segoe UI',tahoma,Geneva,verdana,sans-serif;
 }
 
+
 body {
-    
+   
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 60px;
     min-height: 100vh;
-    background: url(img/alura.webp);
+    background: url(img/img0.jfif);
+    
+}
+.container h4 {
+    color: rgb(7, 7, 7);
+    position: absolute;
+    top: -90px;
+    font-size: 35px;
 }
 .container h1{
     color: rgb(7, 7, 7);
     position: absolute;
     top: -50px;
-    font-size: 38px;
+    font-size: 28px;
 }
 
 .container{
@@ -35,7 +44,7 @@ body {
     width: 280px;
     height: 400px;
     margin: 20px;
-    box-shadow: 35px 35px 80px rgba(0,0,0,0.20);
+    box-shadow: 5px 5px 5px 5px rgb(234, 239, 72);;
     border-radius: 20px;
     background: rgba(54, 128, 220, 0.5);
     overflow: hidden;
@@ -83,12 +92,20 @@ body {
     font-size: 30px;
     
 }
-.links a{
-    color: rgb(7, 7, 7);
+
+ button  {
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    font-size: 18px;
     position: relative;
-    bottom: 5px; ;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 70px;
+    right: 0;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%);
+    background: yellow
+    
 }
